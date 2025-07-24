@@ -1,0 +1,89 @@
+/* 主布局容器 */
+.homeLayoutContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  background-color: #eee;
+}
+
+/* 主内容区域 */
+.main {
+  background-color: #fafafa;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  /* height: 100vh; */
+  width: calc(100% - 1.2rem);
+  height: calc(100% - 1.2rem);
+  overflow: hidden;
+  border-radius: 1.5rem 0 0 1.5rem;
+  margin-left: 0.6rem;
+  margin-top: 0.6rem;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.05);
+}
+
+.mainContent {
+  padding: 1.5rem;
+  padding-left: 2rem;
+  flex: 1;
+  overflow-y: auto;
+  background-color: #fafafa;
+}
+
+.backgroundGif {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.5;
+  pointer-events: none;
+  z-index: 0;
+  width: 320px;
+  height: auto;
+}
+.mainContentWithBg {
+  position: relative;
+  z-index: 1;
+  min-height: 400px;
+  /* 新增猫猫背景 */
+  background: url('/assets/cat.111.gif') center center no-repeat;
+  background-size: contain;
+  opacity: 1;
+}
+
+.mainContentWithBg::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 320px;
+  height: 320px;
+  transform: translate(-50%, -50%);
+  background: url('/assets/cat.111.gif') center center no-repeat;
+  background-size: contain;
+  opacity: 0.5;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.mainContent, .mainContentWithBg {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.mainContent::before, .mainContentWithBg::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 4500px;
+  height: 4500px;
+  transform: translate(-50%, -50%);
+  background: url('/assets/cat.111.gif') center center no-repeat;
+  background-size: contain;
+  opacity: 0.5;
+  pointer-events: none;
+  z-index: 0;
+}

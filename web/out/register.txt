@@ -1,0 +1,23 @@
+1:"$Sreact.fragment"
+2:I[3355,["218","static/chunks/218-3372d8f71196917c.js","671","static/chunks/671-3f9a290e9cc47c20.js","211","static/chunks/211-badaa30ec9599341.js","334","static/chunks/334-9a8cd555fc4bd4d3.js","177","static/chunks/app/layout-c62cfd17072290c8.js"],"default"]
+3:I[7555,[],""]
+4:I[1295,[],""]
+5:I[9543,["218","static/chunks/218-3372d8f71196917c.js","352","static/chunks/352-5591089a9ea3a108.js","345","static/chunks/app/not-found-19d3fa4307b770a2.js"],"default"]
+6:I[5249,["218","static/chunks/218-3372d8f71196917c.js","671","static/chunks/671-3f9a290e9cc47c20.js","211","static/chunks/211-badaa30ec9599341.js","334","static/chunks/334-9a8cd555fc4bd4d3.js","177","static/chunks/app/layout-c62cfd17072290c8.js"],"Toaster"]
+7:I[4970,[],"ClientSegmentRoot"]
+8:I[6911,["129","static/chunks/app/register/layout-0724feb0ce0862e1.js"],"default"]
+a:I[894,[],"ClientPageRoot"]
+b:I[6616,["218","static/chunks/218-3372d8f71196917c.js","464","static/chunks/464-d428eda3d36d5b11.js","352","static/chunks/352-5591089a9ea3a108.js","671","static/chunks/671-3f9a290e9cc47c20.js","994","static/chunks/994-fc9f51a3a1425254.js","211","static/chunks/211-badaa30ec9599341.js","726","static/chunks/726-36c64474185f0dfa.js","334","static/chunks/334-9a8cd555fc4bd4d3.js","554","static/chunks/554-d09753ee8baed2af.js","454","static/chunks/app/register/page-e75a98ba7b9a4aeb.js"],"default"]
+e:I[9665,[],"OutletBoundary"]
+11:I[9665,[],"ViewportBoundary"]
+13:I[9665,[],"MetadataBoundary"]
+15:I[6614,[],""]
+:HL["/_next/static/css/cf65041167bba9aa.css","style"]
+0:{"P":null,"b":"JGIJsnVCxFXzTEqA-qVaG","p":"","c":["","register"],"i":false,"f":[[["",{"children":["register",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/cf65041167bba9aa.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"children":["$","body",null,{"className":"","children":["$","$L2",null,{"children":[["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L5",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L6",null,{}]]}]}]}]]}],{"children":["register",["$","$1","c",{"children":[null,["$","$L7",null,{"Component":"$8","slots":{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]},"params":{},"promise":"$@9"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","$La",null,{"Component":"$b","searchParams":{},"params":"$0:f:0:1:2:children:1:props:children:1:props:params","promises":["$@c","$@d"]}],"$undefined",null,["$","$Le",null,{"children":["$Lf","$L10",null]}]]}],{},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","VBP_am2vmPuMbB3bG22rf",{"children":[["$","$L11",null,{"children":"$L12"}],null]}],["$","$L13",null,{"children":"$L14"}]]}],false]],"m":"$undefined","G":["$15","$undefined"],"s":false,"S":true}
+9:{}
+c:{}
+d:{}
+12:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+f:null
+10:null
+14:[["$","title","0",{"children":"LangBot"}],["$","meta","1",{"name":"description","content":"LangBot 是大模型原生即时通信机器人平台"}],["$","link","2",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"48x48"}]]
