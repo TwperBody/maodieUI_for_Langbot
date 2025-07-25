@@ -9,11 +9,12 @@
   position: absolute;
   left: 50%;
   top: 50%;
-  width: 4500px;
-  height: 4500px;
+  width: 2000px;
+  height: 2000px;
   transform: translate(-50%, -50%);
-  background: url('/assets/cat.111.gif') center center no-repeat;
+  background: url('/assets/cat.01.gif') center center no-repeat;
   background-size: contain;
   pointer-events: none;
+  opacity: 1;
   z-index: 0;
 } 
